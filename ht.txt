@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EAZYSHOP - Akcesoria</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Nagłówek -->
+    <header>
+        <div class="logo">EAZYSHOP</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Strona Główna</a></li>
+                <li><a href="#products">Oferta</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sekcja Główna -->
+    <section id="home" class="hero">
+        <h1>Witaj w <span>EAZYSHOP</span></h1>
+        <p>Najlepsze akcesoria w sieci – szybko, tanio, solidnie.</p>
+        <a href="#products" class="btn">Sprawdź ofertę</a>
+    </section>
+
+    <!-- Oferta -->
+    <section id="products" class="products">
+        <h2>Nasza oferta</h2>
+        <div class="product-grid">
+            <div class="product">🖥️ Elektronika</div>
+            <div class="product">🎧 Słuchawki</div>
+            <div class="product">⌚ Smartwatche</div>
+            <div class="product">🎮 Akcesoria gamingowe</div>
+        </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="contact" class="contact">
+        <h2>Kontakt</h2>
+        <p>Masz pytania? Skontaktuj się z nami!</p>
+        <form>
+            <input type="text" placeholder="Twoje imię" required>
+            <input type="email" placeholder="Twój email" required>
+            <textarea placeholder="Twoja wiadomość" required></textarea>
+            <button type="submit">Wyślij</button>
+        </form>
+    </section>
+
+    <!-- Stopka -->
+    <footer>
+        <p>© 2025 EAZYSHOP - Wszystkie prawa zastrzeżone.</p>
+    </footer>
+
+</body>
+</html>
+
